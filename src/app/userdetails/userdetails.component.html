@@ -1,0 +1,12 @@
+<div class="container" *ngIf="recievedData != undefined">
+    <div>
+        <img [src]="recievedData.avatar" alt="Images not available" height="180" width="160">
+    </div>
+    <div class="one">
+        <p>Name :<b> {{ recievedData.name}} </b></p>
+        <p>Ocuppation :<b> {{recievedData.job}}</b> </p>
+        <p>Country :<b> {{recievedData.country}} </b></p>
+        <p>Gender :<b> {{recievedData.gender}}</b></p>
+        <p>Age :<b> {{recievedData.age}} </b></p>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="container" *ngFor="let Details of user">
+    <div class="container1">
+        <div class="one">{{Details.name}}</div>
+        <div class="one">{{Details.job}}</div>
+        <button (click)="onClick(Details)">Show Details</button>
+    </div>
+</div>
